@@ -2,8 +2,6 @@
 Download Following Nuget package
 Microsoft.Extensions.Caching.SqlServer
 
-
-
 Step 2:
 Using developer command prompt, generate SQL cache table and index by using sql-cache create a command.
 	Go to Tools Menu -> Select Command Line -> Select Developer Command Promt

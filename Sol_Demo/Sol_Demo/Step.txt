@@ -12,7 +12,7 @@ Using developer command prompt, generate SQL cache table and index by using sql-
 	2.2 Open Sql Server Management Studio and make a new Database for storing Sql Cache content.
 		 CREATE DATBASE DistCache
 
-	2.2 Generate Sql Cache Tables and Index by using following command.
+	2.3 Generate Sql Cache Tables and Index by using following command.
 		dotnet sql-cache create "Data Source=DESKTOP-MOL1H66\IDEATORS;Initial Catalog=DistCache;Integrated Security=True;" dbo tblSqlCache
 
 	You will get following response in console.

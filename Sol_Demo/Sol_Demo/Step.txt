@@ -29,7 +29,11 @@ In startUp.cs file, add the following code on ConfigureServices method. Add the 
             });
 
 Step 4:
-In Razor view page, now you can make distrubuted cache by using distributed-cache tag helper. 
+In Razor view page, now you can make distrubuted cache by using distributed-cache tag helper. like this
+
+<distributed-cache name="Content1" enabled="true" expires-after="@TimeSpan.FromSeconds(10)">
+    <h3>This content is cached : @DateTime.Now</h3>
+</distributed-cache>
 
 Step 5:
 Check tblSqlCache Table. Check entry added or not.
